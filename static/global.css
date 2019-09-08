@@ -147,7 +147,8 @@ body {
   margin: 0 0 1.7rem;
 }
 
-.c-content h4, .c-h4 {
+.c-content h4,
+.c-h4 {
   font-weight: 700;
   font-size: 1.4rem;
 }

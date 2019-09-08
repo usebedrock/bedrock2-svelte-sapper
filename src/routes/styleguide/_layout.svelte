@@ -13,6 +13,8 @@
     // Styleguide related
     let styleguide = false;
 
+    export let segment;
+
 </script>
 
 <svelte:head>
@@ -22,10 +24,8 @@
 <GridLayout>
     <GridItem>
         <Spacer side="top">
-            <Content>
-                <h3>Table of Contents</h3>
-                <Navigation />
-            </Content>
+            <h1 class="c-h4">Table of Contents</h1>
+            <Navigation segment="{segment}" />
         </Spacer>
     </GridItem>
     <GridItem>

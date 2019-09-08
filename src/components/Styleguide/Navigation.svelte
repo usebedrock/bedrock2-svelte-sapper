@@ -71,7 +71,7 @@
 </script>
 
 <style>
-    h4 {
+    h2 {
         margin: 1rem 0;
     }
 
@@ -99,26 +99,23 @@
     }
 </style>
 
-<ul>
-    {#each componentTreeCategories as componentTreeCategory}
-        <li>
-            <h4>{componentTreeCategory}</h4>
-            <ul>
-                {#each componentTree as component}
-                    {#if component.category == componentTreeCategory }
-                        <li
-                            class:selected={ segment === component.name.trim().toLowerCase().replace(" ", "-")}
-                        >
-                            <!-- to debug selected state -->
-                            <!-- {segment}
-                            {component.name.trim().toLowerCase().replace(" ", "-")} -->
-                            <a href={'/styleguide/component/'+component.name.trim().toLowerCase().replace(" ", "-")}>
-                                {component.name}
-                            </a>
-                        </li>
-                    {/if}
-                {/each}
-            </ul>
-        </li>
-    {/each}
-</ul>
+<nav>
+    <ul>
+        {#each componentTreeCategories as componentTreeCategory}
+            <li>
+                <h2 class="c-h4">{componentTreeCategory}</h2>
+                <ul>
+                    {#each componentTree as component}
+                        {#if component.category == componentTreeCategory }
+                            <li>
+                                <a href={'/styleguide/component/'+component.name.trim().toLowerCase().replace(" ", "-")}>
+                                    {component.name}
+                                </a>
+                            </li>
+                        {/if}
+                    {/each}
+                </ul>
+            </li>
+        {/each}
+    </ul>
+</nav>

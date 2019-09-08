@@ -3,6 +3,7 @@
     import Content from '../../../components/UI/Content.svelte';
 
     export let segment;
+
     $: segment = segment.replace("-", " ").replace(/^\w/, c => c.toUpperCase());
 
 </script>
