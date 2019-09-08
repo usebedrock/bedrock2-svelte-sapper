@@ -4,6 +4,7 @@
 
 <style>
 
+    /* This code works for a specific layout at this point in time, not a generic grid component yet. */
     .grid-layout {
         display: grid;
         grid-gap: 2rem;
