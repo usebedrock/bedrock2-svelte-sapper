@@ -101,10 +101,6 @@
     ul li {
         list-style: none;
     }
-
-    .selected {
-        background: red;
-    }
 </style>
 
 <nav>
