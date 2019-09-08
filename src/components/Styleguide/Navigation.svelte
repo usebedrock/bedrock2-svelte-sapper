@@ -2,7 +2,7 @@
 
     export let segment;
 
-    let componentTreeCategories = ["Basics", "Atoms", "Components", "Objects"];
+    let componentTreeCategories = ["Basics", "Atoms", "Components"];
 
     let componentTree = [
         {
