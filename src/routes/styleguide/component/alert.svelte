@@ -2,6 +2,7 @@
     import Content from '../../../components/UI/Content.svelte';
     import Alert from '../../../components/UI/Alert.svelte';
     import Sample from '../../../components/Styleguide/Sample.svelte';
+    import Pre from '../../../components/UI/Pre.svelte';
 </script>
 
 <Content>

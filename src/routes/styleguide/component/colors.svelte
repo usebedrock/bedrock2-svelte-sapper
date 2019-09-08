@@ -1,5 +1,6 @@
 <script>
     import Code from '../../../components/UI/Code.svelte';
+    import Pre from '../../../components/UI/Pre.svelte';
 
     let colors = [
         {

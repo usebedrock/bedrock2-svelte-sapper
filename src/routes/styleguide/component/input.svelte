@@ -1,6 +1,7 @@
 <script>
     import Content from '../../../components/UI/Content.svelte';
     import Sample from '../../../components/Styleguide/Sample.svelte';
+    import Code from '../../../components/UI/Code.svelte';
 
     import Label from '../../../components/UI/Label.svelte';
     import Input from '../../../components/UI/Input.svelte';
@@ -17,10 +18,19 @@
         <Input value="Test" />
     </Sample>
 
+    <Code>
+        &lt;Input value=&quot;Test&quot; /&gt;
+    </Code>
+
     <h3>Color</h3>
     <Sample>
         <InputColor value="#FF0000" />
     </Sample>
+
+    <Code>
+        &lt;InputColor value=&quot;#FF0000&quot; /&gt;
+    </Code>
+
 
     <!-- todo input number example -->
 </Content>

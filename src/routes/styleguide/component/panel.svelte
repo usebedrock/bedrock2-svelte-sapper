@@ -1,8 +1,9 @@
 <script>
     import Content from '../../../components/UI/Content.svelte';
     import Sample from '../../../components/Styleguide/Sample.svelte';
-
+    import Pre from '../../../components/UI/Pre.svelte';
     import Code from '../../../components/UI/Code.svelte';
+
     import Panel from '../../../components/UI/Panel.svelte';
     import PanelBody from '../../../components/UI/PanelBody.svelte';
     import PanelHeader from '../../../components/UI/PanelHeader.svelte';

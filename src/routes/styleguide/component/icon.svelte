@@ -1,6 +1,7 @@
 <script>
     import Icon from '../../../components/UI/Icon.svelte';
     import Sample from '../../../components/Styleguide/Sample.svelte';
+    import Pre from '../../../components/UI/Pre.svelte';
 </script>
 
 <style>

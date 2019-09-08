@@ -1,6 +1,6 @@
 <script>
     import Sample from '../../../components/Styleguide/Sample.svelte';
-
+    import Pre from '../../../components/UI/Pre.svelte';
     import Button from '../../../components/UI/Button.svelte';
 
     import Toolbar from '../../../components/UI/Toolbar.svelte';

@@ -1,6 +1,7 @@
 <script>
     import Content from '../../../components/UI/Content.svelte';
     import Sample from '../../../components/Styleguide/Sample.svelte';
+    import Pre from '../../../components/UI/Pre.svelte';
 
     import Label from '../../../components/UI/Label.svelte';
     import Input from '../../../components/UI/Input.svelte';

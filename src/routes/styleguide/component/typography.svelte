@@ -1,4 +1,5 @@
 <script>
+    import Pre from '../../../components/UI/Pre.svelte';
     import Code from '../../../components/UI/Code.svelte';
     import Content from '../../../components/UI/Content.svelte';
 
