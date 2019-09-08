@@ -10,13 +10,40 @@
             name: "Button",
         },
         {
+            category: "Atoms",
+            name: "Input"
+        },
+        {
             category: "Basics",
             name: "Colors",
-
         },
         {
             category: "Basics",
             name: "Typography",
+        },
+        {
+            category: "Basics",
+            name: "Icon"
+        },
+        {
+            category: "Components",
+            name: "Alert"
+        },
+        {
+            category: "Components",
+            name: "Blank slate"
+        },
+        {
+            category: "Components",
+            name: "Box"
+        },
+        {
+            category: "Components",
+            name: "Content"
+        },
+        {
+            category: "Components",
+            name: "Card"
         },
         {
             category: "Components",
@@ -28,34 +55,10 @@
         },
         {
             category: "Components",
-            name: "Card"
-        },
-        {
-            category: "Components",
-            name: "Alert"
-        },
-        {
-            category: "Components",
-            name: "Box"
-        },
-        {
-            category: "Atoms",
-            name: "Input"
-        },
-        {
-            category: "Basics",
-            name: "Icon"
-        },
-        {
-            category: "Components",
-            name: "Blank slate"
-        },
-        {
-            category: "Components",
             name: "Panel"
         },
         {
-            category: "Objects",
+            category: "Components",
             name: "Form group"
         },
         {
@@ -69,10 +72,6 @@
         {
             category: "Components",
             name: "Table"
-        },
-        {
-            category: "Components",
-            name: "Content"
         }
     ];
 
