@@ -5,7 +5,7 @@
 </script>
 
 <Content>
-    <h3>Single option</h3>
+    <h2>Single option</h2>
 </Content>
 
 <Sample>

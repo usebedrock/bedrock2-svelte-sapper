@@ -5,35 +5,36 @@
 </script>
 
 <Content>
-    <h3>Button skins</h3>
+    <h2>Button skins</h2>
 
     <Sample>
         <Button variant="primary">Button label</Button>
         <Button variant="success">Button label</Button>
     </Sample>
 
-    <h3>Button types</h3>
+    <h2>Button types</h2>
 
-    <h4>Icon only</h4>
+    <h3>Icon only</h3>
     <Sample>
         <Button icon="close" layout="icon-only">Close</Button>
     </Sample>
 
-    <h4>Regular (action button)</h4>
+    <h3>Regular (action button)</h3>
 
     <Sample>
         <Button>Hello</Button>
     </Sample>
 
-    <h4>Link</h4>
+    <h3>Link</h3>
 
     <p>Use a <code>href</code> attribute.</p>
 
     <Sample>
-        <Button>Hello</Button>
+        <Button href="/">Hello</Button>
     </Sample>
 
-    <h4>Icon and label</h4>
+    <h3>Icon and label</h3>
+
     <Sample>
         <Button icon="close">Close</Button>
         <Button icon="add">Add</Button>

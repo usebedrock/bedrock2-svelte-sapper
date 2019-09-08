@@ -3,6 +3,6 @@
 </script>
 
 <Content>
-    <h1>Project name</h1>
-    <p>Intro to project styleguide here.</p>
+    <h1>Your Project Name - Styleguide</h1>
+    <p>Write an intro to your project styleguide here.</p>
 </Content>

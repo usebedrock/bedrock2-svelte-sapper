@@ -8,7 +8,7 @@
 </script>
 
 <Content>
-    <h2>{segment}</h2>
+    <h1>{segment}</h1>
 </Content>
 
 <!-- @todo implement component descriptions -->
