@@ -22,7 +22,7 @@
             previewString: "<h3>Heading 3</h3>"
         },
         {
-            size: '16',
+            size: '14',
             name: "Body 1",
             previewString:  "<p>"+stringMedium+"</p>"
         },
@@ -39,19 +39,23 @@
         <tr>
             <th>Name</th>
             <th>Preview</th>
-            <th>Size</th>
         </tr>
     </thead>
     <tbody>
     {#each styles as style}
         <tr>
-            <td>{style.name}</td>
+            <td>
+                {style.name}
+                <br>
+                {style.size}px
+            </td>
+
             <td>
                 <Content>
                     {@html style.previewString}
                 </Content>
             </td>
-            <td>{style.size}</td>
+            
         </tr>
     {/each}
     </tbody>
