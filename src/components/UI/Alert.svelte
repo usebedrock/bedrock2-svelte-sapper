@@ -1,4 +1,5 @@
 <script>
+
     import Button from './Button.svelte';
 
     export let message = "Default message";
