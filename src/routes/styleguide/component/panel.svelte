@@ -2,6 +2,7 @@
     import Content from '../../../components/UI/Content.svelte';
     import Sample from '../../../components/Styleguide/Sample.svelte';
 
+    import Code from '../../../components/UI/Code.svelte';
     import Panel from '../../../components/UI/Panel.svelte';
     import PanelBody from '../../../components/UI/PanelBody.svelte';
     import PanelHeader from '../../../components/UI/PanelHeader.svelte';
@@ -22,8 +23,12 @@
     </Panel>
 </Sample>
 
+<Content>
+    <p>Use the <Code>PanelRow</Code> component to show multiple panels per row.</p>
+</Content>
+
 <Sample>
-    <PanelRow panelCount="2'">
+    <PanelRow panelCount="2">
         <Panel>
             <PanelHeader title="Panel header" />
             <PanelBody>

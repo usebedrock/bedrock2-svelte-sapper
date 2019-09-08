@@ -8,6 +8,7 @@
     <h2>Button skins</h2>
 
     <Sample>
+        <Button>Button label</Button>
         <Button variant="primary">Button label</Button>
         <Button variant="success">Button label</Button>
     </Sample>

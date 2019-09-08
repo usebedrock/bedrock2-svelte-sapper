@@ -1,5 +1,6 @@
 <script>
     import Sample from '../../../components/Styleguide/Sample.svelte';
+
     import Card from '../../../components/UI/Card.svelte';
     import CardList from '../../../components/UI/CardList.svelte';
 </script>

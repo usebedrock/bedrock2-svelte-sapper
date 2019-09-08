@@ -160,7 +160,7 @@ body {
 
 .c-content ul,
 .c-content ol {
-  padding: 0 0 0 2.4rem;
+  padding: 0 0 1.4rem 2.4rem;
 }
 
 .c-content ul li {
@@ -175,7 +175,7 @@ body {
    ========================================================================== */
 
 .u-sr-only {
-position: absolute;
+  position: absolute;
   left: -10000px;
   top: auto;
   width: 1px;

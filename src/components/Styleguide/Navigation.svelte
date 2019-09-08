@@ -69,6 +69,10 @@
         {
             category: "Components",
             name: "Table"
+        },
+        {
+            category: "Components",
+            name: "Content"
         }
     ];
 
